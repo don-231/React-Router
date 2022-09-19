@@ -6,6 +6,9 @@ import { People } from './Pages/People';
 import { Person } from './Pages/Person';
 import { Starships } from './Pages/Starships';
 import { Starship } from './Pages/Starship';
+import { Planets } from './Pages/Planets';
+import { Planet } from './Pages/Planet';
+
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
 
       <Route path='/starships' element={<Starships/>}/>  
       <Route path='/starships/:id' element={<Starship/>}/>
+
+      <Route path='/planets' element={<Planets/>}/>
+      <Route path='/planets/:id' element={<Planet/>}/>
     </Routes>
   );
 }

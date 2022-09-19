@@ -15,7 +15,7 @@ export const Home = () => {
                     </Link>
                 </div>
                 <div className="flex justify-center">
-                    <Link className="mt-5 bg-sky-400 p-2 hover: bg-sky-300 text-white rounded-md" to="/">
+                    <Link className="mt-5 bg-sky-400 p-2 hover: bg-sky-300 text-white rounded-md" to="/planets">
                         Starwars Planets
                     </Link>
                 </div>

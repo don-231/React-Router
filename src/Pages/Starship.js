@@ -21,7 +21,7 @@ export const Starship = () => {
             <hr /> 
             <h4>{starship.name}</h4>
             <p>Manufacturer: {starship.manufacturer}</p>
-            <p>Cargo Capacicty: {starship.cargo_capacity}</p>
+            <p>Cargo Capacity: {starship.cargo_capacity}</p>
               </div>         
         
     )
